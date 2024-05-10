@@ -55,7 +55,7 @@ const AddTodoForm: React.FC = () => {
 
   return (
     <form
-      className="space-y-6 p-6 flex flex-col w-full"
+      className="space-y-6 p-6 flex flex-col w-full max-w-7xl"
       method="POST"
       noValidate
       autoComplete="off"

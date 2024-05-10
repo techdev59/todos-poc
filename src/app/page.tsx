@@ -17,11 +17,11 @@ const HomePage: React.FC = () => {
   return (
     <div className="w-full h-full flex flex-col items-center justify-center">
       <AddTodoForm />
-      <div className="w-1/2 flex flex-col p-6">
+      <div className="w-full md:w-1/2 flex flex-col p-6">
         <h1 className="font-semibold text-2xl text-start mt-4">Todo List</h1>
         {todos.length > 0 ? (
           <>
-            <ul className="mt-2 pr-6 overflow-y-scroll">
+            <ul className="mt-2 md:pr-6 overflow-y-scroll">
               {todos
                 .slice()
                 .sort((a, b) =>
